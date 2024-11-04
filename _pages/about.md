@@ -26,6 +26,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I am a recent graduate from the [University of British Columbia](https://www.ubc.ca/), where I completed a combined major in Computer Science and Statistics with Distinction.
 
-I am currently seeking opportunities for a PhD program or research assistant position to further my exploration in the fields of Machine Learning Algorithm and Trustworthy, Generative AI, and Human-Computer Interaction (HCI). 
+How can we design models that emulate human learning processes? This question has always lingered in my mind, drives my research interests across Generative AI, Multimodal Machine Learning, Spatial Intelligence, and Computer Vision. I am currently seeking opportunities for a PhD program or research assistant position to further my exploration in these fields.
 
 Please feel free to reach out to discuss potential opportunities or research collaborations.
