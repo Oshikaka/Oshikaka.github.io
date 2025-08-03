@@ -1,13 +1,16 @@
 ---
 layout: book-shelf
-title: bookshelf
-permalink: /books/
-nav: false
-collection: books
+title: Pets
+permalink: /pets/
+nav: true
+# collection: books
+nav_order: 3
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+## 姜饼 Gingerbread
+<img src="/assets/img/cat1.jpg" alt="1" style="width: 300px; height: 300px; object-fit: cover;">
+<img src="/assets/img/cat2.jpg" alt="2" style="width: 300px; height: 300px; object-fit: cover;">
 
-## Books that I am reading, have read, or will read
+## Paper
+<img src="/assets/img/cat3.jpg" alt="3" style="width: 300px; height: 300px; object-fit: cover;">
+<img src="/assets/img/cat4.jpg" alt="4" style="width: 300px; height: 300px; object-fit: cover;">

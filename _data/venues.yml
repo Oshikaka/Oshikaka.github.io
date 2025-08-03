@@ -7,3 +7,28 @@
 
 "Vision":
   color: "#009f36"
+
+"WACV":
+  url: https://wacv2024.thecvf.com/
+  color: "#bbaacc"
+"CVPR":
+  url: https://cvpr2024.thecvf.com/
+  color: "#d8b4b4"
+"ECCV":
+  url: https://eccv2024.thecvf.com/
+  color: "#ffb3ab"
+"ICML":
+  url: https://icml.cc/
+  color: "#dab8c3"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#cbbcd9"
+"ICLR":
+  url: https://iclr.cc/
+  color: "#a3bfcf"
+"ICCV":
+  url: https://iccv2025.thecvf.com/
+  color: "#bbaacc"
+"AAAI":
+  url: https://aaai.org/
+  color: "#d5e2cf"
