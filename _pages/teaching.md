@@ -11,7 +11,7 @@ nav_order: 2
 - `CS 9`: Intermediate Python, University of California, Santa Barbara, Spring 2024 
 - `CPSC 121`: Models of Computation, University of British Columbia, Fall 2023
 
-**MTutored ath and Statistics Courses:**
+**Tutored Math and Statistics Courses:**
 - `CAS MA 242`: Linear Algebra, Boston University, Fall 2023
 - `MAST 10006`: Calculus 2, The University of Melbourne, Oct 2023
 - `MATH 11121/11711`: Mathematical Foundations and Analysis/Probability, University of Manchester, Aug 2023

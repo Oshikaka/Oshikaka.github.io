@@ -25,7 +25,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year Ph.D. student in [College of Engineering, Northeastern University](https://coe.northeastern.edu/), supervised by [Prof. Octavia Camps](https://coe.northeastern.edu/people/camps-octavia/). I earned my undergraduate degree (BSc) with Distinction from the [University of British Columbia](https://www.ubc.ca/), where I completed a combined major in Computer Science and Statistics with Distinction.
+I am a first-year Ph.D. student in [College of Engineering, Northeastern University](https://coe.northeastern.edu/), supervised by [Prof. Octavia Camps](https://coe.northeastern.edu/people/camps-octavia/). I earned my undergraduate degree (BSc) from the [University of British Columbia](https://www.ubc.ca/), where I completed a combined major in Computer Science and Statistics with Distinction.
 
 How can we design models that emulate human learning processes? This question has always lingered in my mind, drives my research interests across **Generative AI**, **Multimodal Machine Learning**, and **Computer Vision**. 
 
