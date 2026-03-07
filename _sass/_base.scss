@@ -1424,3 +1424,20 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// ClustrMaps globe on about page
+.clustrmaps-globe {
+  text-align: center;
+  transform: scale(0.2);
+  transform-origin: top right;
+  margin: 0 0 -800px;
+}
+
+@media (max-width: 768px) {
+  .clustrmaps-globe {
+    transform: scale(0.06);
+    transform-origin: top center;
+    margin: 1rem 0 0;
+    overflow: hidden;
+  }
+}
