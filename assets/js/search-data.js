@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-excited-to-announce-that-i-will-be-starting-my-phd-program-at-northeastern-university",
           title: 'I’m excited to announce that I will be starting my PhD program 🎓...',
           description: "",
+          section: "News",},{id: "news-our-paper-hieramp-coarse-to-fine-autoregressive-amplification-for-generative-dataset-distillation-was-accepted-at-cvpr-2026",
+          title: 'Our paper HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation was accepted at...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
