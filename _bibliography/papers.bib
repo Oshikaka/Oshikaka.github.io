@@ -1,6 +1,6 @@
 ---
 ---
-@inproceedings{zhao2025taming,
+@inproceedings{zhao2026hierampcoarsetofineautoregressiveamplification,
   abbr={CVPR},
   bibtex_show={false},
   title={HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation},
@@ -11,6 +11,8 @@
   selected={true},
   preview={hieramp.png},
   abstract={Dataset distillation often prioritizes global semantic proximity when creating small surrogate datasets for original large-scale ones. However, object semantics are inherently hierarchical. For example, the position and appearance of a bird's eyes are constrained by the outline of its head. Global proximity alone fails to capture how object-relevant structures at different levels support recognition. In this work, we investigate the contributions of hierarchical semantics to effective distilled data. We leverage the vision autoregressive (VAR) model whose coarse-to-fine generation mirrors this hierarchy and propose HierAmp to amplify semantics at different levels. At each VAR scale, we inject class tokens that dynamically identify salient regions and use their induced maps to guide amplification at that scale. This adds only marginal inference cost while steering synthesis toward discriminative parts and structures. Empirically, we find that semantic amplification leads to more diverse token choices in constructing coarse-scale object layouts. Conversely, at fine scales, the amplification concentrates token usage, increasing focus on object-related details. Across popular dataset distillation benchmarks, HierAmp consistently improves validation performance without explicitly optimizing global proximity, demonstrating the importance of semantic amplification for effective dataset distillation.},
+  html={https://arxiv.org/abs/2603.06932},
+  code={https://github.com/Oshikaka/HIERAMP}
 }
 
 
