@@ -14,6 +14,9 @@
 "CVPR":
   url: https://cvpr.thecvf.com/
   color: "#7CC0D9"
+"Preprint":
+  url: https://arxiv.org/
+  color: "#CFD5E2"
 "ECCV":
   url: https://eccv2024.thecvf.com/
   color: "#ffb3ab"
