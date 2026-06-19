@@ -32,7 +32,7 @@ How can we design models that emulate human learning processes? This question ha
 I am currently seeking **internship** opportunities to deepen my experience and contribute to impactful work in these areas. Please feel free to reach out to discuss potential opportunities or research collaborations.
 
 <div class="clustrmaps-globe">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WWzj7wUZaMMSGxBXkDOfgK8JsOEUsd49IbElxacNIp0"></script>
+  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=FmffJv4U8qe-XUDkr3pkdkQ7UH6cCVFIF0iq4JFjXFM"></script>
 </div>
 
 <!-- <div style="text-align: right; transform-origin: right; margin: -600px -600px -490px 0px;">
