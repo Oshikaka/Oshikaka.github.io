@@ -1431,7 +1431,15 @@ figure.cover {
 // shrinking the widget with a transform (a transform keeps the ~970px layout
 // box and permanently fails the widget's own visibility check).
 .clustrmaps-globe {
-  width: 200px;
+  width: 140px;
   max-width: 100%;
-  margin: 1.5rem auto 0;
+  // margin-left: auto keeps the vertical position and pushes it to the right edge
+  margin: 1.5rem 0 0 auto;
+}
+
+// News date badges: keep every date the same width. The text is always
+// MMM DD, YYYY, but Roboto is not monospaced, so the months render at
+// different widths. .badge already centres its text.
+.news .badge {
+  min-width: 6.5rem;
 }

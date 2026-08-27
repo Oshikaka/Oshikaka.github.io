@@ -17,6 +17,9 @@
 "Preprint":
   url: https://arxiv.org/
   color: "#CFD5E2"
+"EMNLP":
+  url: https://2026.emnlp.org/
+  color: "#a7b8db"
 "ECCV":
   url: https://eccv2024.thecvf.com/
   color: "#ffb3ab"
