@@ -1425,19 +1425,13 @@ figure.cover {
   }
 }
 
-// ClustrMaps globe on about page
+// MapMyVisitors globe on the about page.
+// The widget reads its size from this container's width and only reveals itself
+// once the whole box fits in the viewport, so constrain the parent instead of
+// shrinking the widget with a transform (a transform keeps the ~970px layout
+// box and permanently fails the widget's own visibility check).
 .clustrmaps-globe {
-  text-align: center;
-  transform: scale(0.2);
-  transform-origin: top right;
-  margin: 0 0 -800px;
-}
-
-@media (max-width: 768px) {
-  .clustrmaps-globe {
-    transform: scale(0.06);
-    transform-origin: top center;
-    margin: 1rem 0 0;
-    overflow: hidden;
-  }
+  width: 200px;
+  max-width: 100%;
+  margin: 1.5rem auto 0;
 }
