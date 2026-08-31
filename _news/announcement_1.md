@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Our paper `THInImg: Cross-Modal Steganography for Presenting Talking Heads in Images` was accepted at `WACV 2024`🎉!
-

@@ -4,6 +4,7 @@ date: 2025-05-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
+
 Our paper `Taming Diffusion for Dataset Distillation with High Representativeness` was accepted at `ICML 2025`🎉!
 
 <!-- ---
@@ -39,6 +40,3 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual. -->
-
-
-
