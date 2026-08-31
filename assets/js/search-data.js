@@ -30,29 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pets/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "news-our-paper-thinimg-cross-modal-steganography-for-presenting-talking-heads-in-images-was-accepted-at-wacv-2024",
+        },{id: "news-our-paper-thinimg-cross-modal-steganography-for-presenting-talking-heads-in-images-was-accepted-at-wacv-2024",
           title: 'Our paper THInImg: Cross-Modal Steganography for Presenting Talking Heads in Images was accepted...',
           description: "",
           section: "News",},{id: "news-our-paper-taming-diffusion-for-dataset-distillation-with-high-representativeness-was-accepted-at-icml-2025",
@@ -61,11 +39,17 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-excited-to-announce-that-i-will-be-starting-my-phd-program-at-northeastern-university",
           title: 'I’m excited to announce that I will be starting my PhD program 🎓...',
           description: "",
-          section: "News",},{id: "news-our-paper-hieramp-coarse-to-fine-autoregressive-amplification-for-generative-dataset-distillation-was-accepted-at-cvpr-2026",
-          title: 'Our paper HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation was accepted at...',
+          section: "News",},{id: "news-one-first-authored-paper-hieramp-coarse-to-fine-autoregressive-amplification-for-generative-dataset-distillation-was-accepted-at-cvpr-2026",
+          title: 'One first-authored paper HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation was accepted...',
           description: "",
-          section: "News",},{id: "news-our-paper-dynamic-hub-and-spoke-memory-for-streaming-video-understanding-was-accepted-to-findings-of-emnlp-2026",
-          title: 'Our paper Dynamic Hub-and-Spoke Memory for Streaming Video Understanding was accepted to Findings...',
+          section: "News",},{id: "news-we-are-organizing-the-1st-latent-visual-reasoning-lvr-workshop-at-wacv-2027-come-enjoy-the-disneyland-while-attending-the-conference",
+          title: 'We are organizing the 1st Latent Visual Reasoning (LVR) Workshop at WACV 2027....',
+          description: "",
+          section: "News",},{id: "news-joined-oak-ridge-national-lab-ornl-as-a-research-intern-contribute-to-the-doe-genesis-mission",
+          title: 'Joined Oak Ridge National Lab (ORNL) as a Research Intern 👩🏻‍💻, contribute to...',
+          description: "",
+          section: "News",},{id: "news-one-first-authored-paper-dynamic-hub-and-spoke-memory-for-streaming-video-understanding-was-accepted-to-findings-of-emnlp-2026",
+          title: 'One first-authored paper Dynamic Hub-and-Spoke Memory for Streaming Video Understanding was accepted to...',
           description: "",
           section: "News",},{
         id: 'social-email',
