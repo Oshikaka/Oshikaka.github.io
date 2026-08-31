@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper `Taming Diffusion for Dataset Distillation with High Representativeness` was accepted at `ICML 2025`🎉!
+Our paper `Taming Diffusion for Dataset Distillation with High Representativeness` was accepted at `ICML 2025` 🎉!
 
 <!-- ---
 layout: post

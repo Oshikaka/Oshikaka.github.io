@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper `HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation` was accepted at `CVPR 2026`🎉!
+One first-authored paper `HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation` was accepted at `CVPR 2026` 🎉!
