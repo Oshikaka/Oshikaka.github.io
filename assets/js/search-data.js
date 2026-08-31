@@ -64,6 +64,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-hieramp-coarse-to-fine-autoregressive-amplification-for-generative-dataset-distillation-was-accepted-at-cvpr-2026",
           title: 'Our paper HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation was accepted at...',
           description: "",
+          section: "News",},{id: "news-our-paper-dynamic-hub-and-spoke-memory-for-streaming-video-understanding-was-accepted-to-findings-of-emnlp-2026",
+          title: 'Our paper Dynamic Hub-and-Spoke Memory for Streaming Video Understanding was accepted to Findings...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
