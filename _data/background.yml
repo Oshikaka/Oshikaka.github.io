@@ -1,0 +1,105 @@
+# Content for the "Work Experience" and "Education" sections of the home page.
+# Rendered by _includes/background.liquid, toggled in the front matter of _pages/about.md.
+#
+# Each entry supports:
+#   title, institution, url, department, location, year
+#   institutions  list of { name, url, location, year } for entries that span
+#                 more than one campus or site
+#   logo          file name inside assets/img/logos/
+#   logo_height   overrides the default logo height (e.g. 3.4rem)
+#   logo_offset   nudges the logo up or down (e.g. -1rem)
+#   description   list of bullet points
+#   notes         list of { text, logo, logo_alt, logo_url }, each shown as its
+#                 own line with the logo inline at the end
+#   partners      list of { name, logo, url, height, width } shown as a logo row
+#   partners_label  overrides the "In collaboration with" label
+#
+# `awards` and `professional_service` are flat lists of { year, label, text, url }.
+
+work_experience:
+  - title: Research Scientist Intern
+    institution: Oak Ridge National Laboratory
+    url: https://www.ornl.gov/
+    department: Working with Dr. Xiao Wang, Dr. Dali Wang, and Dr. Dan Lu
+    location: Oak Ridge, TN
+    year: Aug 2026 - Present
+    logo: ornl.png
+    logo_height: 6.5rem
+    description:
+      - Advancing AI4Science discovery through the pre-training and post-training of Foundation Model.
+    notes:
+      - text: Contributing to the
+        logo: genesis-mission.png
+        logo_alt: Genesis Mission
+        logo_url: https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission
+    partners:
+      - name: NVIDIA
+        logo: nvidia.png
+        height: 1.3rem
+      - name: Google DeepMind
+        logo: google-deepmind.png
+        height: 2.1rem
+
+  # - title: Graduate Research Assistant
+  #   institution: Northeastern University
+  #   url: https://coe.northeastern.edu/
+  #   department: Robust Systems Lab, advised by Prof. Octavia Camps
+  #   location: Boston, MA
+  #   year: 2025 - Present
+  #   logo: northeastern.png
+  #   description:
+  #     - Streaming video understanding with memory-augmented vision-language models.
+  #     - Physical-aware video generation and world models.
+
+education:
+  - title: Ph.D. in Engineering
+    institution: Northeastern University
+    url: https://coe.northeastern.edu/
+    # department: College of Engineering, advised by Prof. Octavia Camps
+    location: Boston, MA 🇺🇸
+    year: 2025 - Present
+    logo: northeastern.png
+
+  - title: B.Sc. Combined Major in Computer Science and Statistics, with Distinction
+    institution: University of British Columbia
+    url: https://www.ubc.ca/
+    location: Vancouver, Canada 🇨🇦
+    year: 2020 - 2024
+    logo: ubc.png
+    logo_height: 5.0rem
+
+  - title: International Baccalaureate Diploma
+    institutions:
+      - name: UWC Changshu China
+        url: https://www.uwcchina.org/
+        location: Changshu, China 🇨🇳
+      - name: UWC Atlantic
+        url: https://www.uwcatlantic.org/
+        location: St Donat's, UK 🇬🇧
+    year: 2017 - 2020
+    logo: uwc.png
+    logo_height: 6.5rem
+    logo_offset: -1rem
+
+awards:
+  - text: UBC International Scholar Award (~$230K; sole Chinese recipient)
+    year: 2020 - 2024
+  - text: UBC Vantage One Excellent Award
+    year: 2020 - 2024
+  - text: Dean's Honour List, UBC
+    year: 2020 - 2024
+  - text: Gary Kusin Award for Women in Video Gaming ($10K)
+    year: 2024
+  - text: First Place in BC, Canada, KPMG Metaverse Ideation & Innovation Challenge
+    year: 2023
+  - text: Selected Participant, Mila AI4Good Lab (competitive admission, fully funded)
+    year: 2023
+  - text: Joseph Yu Global Leadership Award ($2.4K)
+    year: 2020
+
+professional_service:
+  - label: Workshop Organizer
+    text: 1st Latent Visual Reasoning (LVR) Workshop @ WACV 2027
+    url: https://chenliu-1996.github.io/LVR-WACV2027/
+  - label: Conference Reviewer
+    text: WACV 2027, NeurIPS 2026, AAAI 2027, ICLR 2027

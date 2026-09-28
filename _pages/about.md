@@ -12,6 +12,10 @@ profile:
     Photo credit: <a href='https://lin-zhao-resolve.github.io/'>Lin Zhao</a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+work_experience: true # includes the work experience section from _data/background.yml
+education: true # includes the education section from _data/background.yml
+awards: true # includes the awards section from _data/background.yml
+professional_service: true # includes the professional service section from _data/background.yml
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,7 +31,7 @@ announcements:
 
 I'm a first-year Ph.D. student in the [College of Engineering, Northeastern University](https://coe.northeastern.edu/), supervised by [Prof. Octavia Camps](https://coe.northeastern.edu/people/camps-octavia/). I earned my undergraduate degree from the [University of British Columbia](https://www.ubc.ca/), completing a combined major in Computer Science and Statistics with Distinction. I spent my high school living by the sea at [St Donat's Castle](https://en.wikipedia.org/wiki/St_Donat%27s_Castle) at [UWC Atlantic](https://www.uwcatlantic.org/), where I was shaped by the UWC mission: _To make education a force that unites people, nations and cultures for peace and a sustainable future._
 
-How can we design models that emulate human learning processes? This question has always lingered in my mind, and drives my research interests across **Generative AI**, **Vision-Language Models**, and **Computer Vision**.
+How can an intelligent agent understand, predict, and act in a dynamic visual world? This question has always lingered in my mind, and drives my research interests across **Streaming Video Understanding**, **Physical-Aware Video Generation / World Models**, **Generative AI**, and **Agentic AI**.
 
 I am currently seeking **internship** opportunities to deepen my experience and contribute to impactful work in these areas. Please feel free to reach out to discuss potential opportunities or research collaborations.
 

@@ -17,7 +17,7 @@
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" style="width: 20%">
-              <span class="badge badge-secondary font-weight-bold text-uppercase align-middle ml-3">
+              <span class="badge news-badge font-weight-bold text-uppercase align-middle ml-3">
                 {{ item.date | date: '%b %d, %Y' }}
               </span>
             </th>

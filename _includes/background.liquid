@@ -1,0 +1,110 @@
+<div class="background">
+  {% for entry in include.entries %}
+    <div class="background-entry">
+      <div class="background-logo">
+        {% if entry.logo %}
+          {% assign logo_path = entry.logo | prepend: '/assets/img/logos/' | relative_url %}
+          {% assign logo_alt = entry.institution | default: entry.institutions[0].name %}
+          <img
+            src="{{ logo_path }}"
+            alt="{{ logo_alt }}"
+            {% if entry.logo_height or entry.logo_offset %}style="{% if entry.logo_height %}max-height: {{ entry.logo_height }};{% endif %}{% if entry.logo_offset %}margin-top: {{ entry.logo_offset }};{% endif %}"{% endif %}
+            loading="lazy"
+          />
+        {% endif %}
+      </div>
+      <div class="background-meta">
+        {% if entry.year %}
+          <span class="background-year">{{ entry.year }}</span>
+        {% endif %}
+        {% if entry.location %}
+          <span class="background-location"><i class="fa-solid fa-location-dot"></i> {{ entry.location }}</span>
+        {% endif %}
+        {% for place in entry.institutions %}
+          {% if place.location %}
+            <span class="background-location"><i class="fa-solid fa-location-dot"></i> {{ place.location }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="background-body">
+        {% if entry.title %}
+          <h6 class="background-title">{{ entry.title }}</h6>
+        {% endif %}
+        {% if entry.institution %}
+          <div class="background-institution">
+            <i class="fa-solid fa-building-columns"></i>
+            {% if entry.url %}
+              <a href="{{ entry.url }}">{{ entry.institution }}</a>
+            {% else %}
+              {{ entry.institution }}
+            {% endif %}
+          </div>
+        {% endif %}
+        {% for place in entry.institutions %}
+          <div class="background-institution">
+            <i class="fa-solid fa-building-columns"></i>
+            {% if place.url %}
+              <a href="{{ place.url }}">{{ place.name }}</a>
+            {% else %}
+              {{ place.name }}
+            {% endif %}
+            {% if place.year %}
+              <span class="background-institution-meta">{{ place.year }}</span>
+            {% endif %}
+          </div>
+        {% endfor %}
+        {% if entry.department %}
+          <div class="background-department">{{ entry.department }}</div>
+        {% endif %}
+        {% if entry.description %}
+          <ul class="background-description">
+            {% for item in entry.description %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if entry.notes %}
+          {% for note in entry.notes %}
+            <div class="background-note">
+              <span class="background-note-text">{{ note.text }}</span>
+              {% if note.logo %}
+                {% assign note_logo_path = note.logo | prepend: '/assets/img/logos/' | relative_url %}
+                <span class="background-note-logo">
+                  {% if note.logo_url %}
+                    <a href="{{ note.logo_url }}" title="{{ note.logo_alt }}">
+                      <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" loading="lazy" />
+                    </a>
+                  {% else %}
+                    <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" title="{{ note.logo_alt }}" loading="lazy" />
+                  {% endif %}
+                </span>
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% endif %}
+        {% if entry.partners %}
+          <div class="background-partners">
+            <span class="background-partners-label">{{ entry.partners_label | default: 'In collaboration with' }}</span>
+            <span class="background-partners-logos">
+              {% for partner in entry.partners %}
+                {% assign partner_path = partner.logo | prepend: '/assets/img/logos/' | relative_url %}
+                {% if partner.height %}
+                  {% capture partner_style %}style="max-height: {{ partner.height }}; max-width: {{ partner.width | default: '12rem' }}"{% endcapture %}
+                {% else %}
+                  {% assign partner_style = '' %}
+                {% endif %}
+                {% if partner.url %}
+                  <a href="{{ partner.url }}" title="{{ partner.name }}">
+                    <img src="{{ partner_path }}" alt="{{ partner.name }}" {{ partner_style }} loading="lazy" />
+                  </a>
+                {% else %}
+                  <img src="{{ partner_path }}" alt="{{ partner.name }}" title="{{ partner.name }}" {{ partner_style }} loading="lazy" />
+                {% endif %}
+              {% endfor %}
+            </span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

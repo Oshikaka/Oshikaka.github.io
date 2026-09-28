@@ -64,6 +64,30 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Work experience -->
+    {% if page.work_experience and site.data.background.work_experience %}
+      <h2 style="margin-top: 3rem"><strong>Work Experience</strong></h2>
+      {% include background.liquid entries=site.data.background.work_experience %}
+    {% endif %}
+
+    <!-- Education -->
+    {% if page.education and site.data.background.education %}
+      <h2 style="margin-top: 3rem"><strong>Education</strong></h2>
+      {% include background.liquid entries=site.data.background.education %}
+    {% endif %}
+
+    <!-- Awards -->
+    {% if page.awards and site.data.background.awards %}
+      <h2 style="margin-top: 3rem"><strong>Awards &amp; Achievements</strong></h2>
+      {% include background_list.liquid items=site.data.background.awards %}
+    {% endif %}
+
+    <!-- Professional service -->
+    {% if page.professional_service and site.data.background.professional_service %}
+      <h2 style="margin-top: 3rem"><strong>Professional Service</strong></h2>
+      {% include background_list.liquid items=site.data.background.professional_service %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

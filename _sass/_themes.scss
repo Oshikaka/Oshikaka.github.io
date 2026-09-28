@@ -10,8 +10,11 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$blue-color-theme};
+  --global-hover-color: #{$blue-color-theme};
+  --global-theme-soft-color: #{rgba($blue-color-theme, 0.12)};
+  --global-badge-bg-color: #{$blue-candy-color};
+  --global-badge-text-color: #{$blue-candy-text-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -82,8 +85,11 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #{$blue-color-light};
+  --global-hover-color: #{$blue-color-light};
+  --global-theme-soft-color: #{rgba($blue-color-light, 0.16)};
+  --global-badge-bg-color: #{$blue-candy-color-dark};
+  --global-badge-text-color: #{$blue-candy-text-color-dark};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};

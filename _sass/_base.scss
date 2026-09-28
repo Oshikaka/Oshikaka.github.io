@@ -1442,4 +1442,7 @@ figure.cover {
 // different widths. .badge already centres its text.
 .news .badge {
   min-width: 6.5rem;
+  // Pastel fill so the dates read as a soft accent, not a loud one.
+  color: var(--global-badge-text-color);
+  background-color: var(--global-badge-bg-color);
 }

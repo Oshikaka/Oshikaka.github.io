@@ -1,0 +1,19 @@
+<ul class="background-list">
+  {% for item in include.items %}
+    <li class="background-list-item">
+      {% if item.year %}
+        <span class="background-list-year">{{ item.year }}</span>
+      {% endif %}
+      <span class="background-list-text">
+        {% if item.label %}
+          <span class="background-list-label">{{ item.label }}:</span>
+        {% endif %}
+        {% if item.url %}
+          <a href="{{ item.url }}">{{ item.text }}</a>
+        {% else %}
+          {{ item.text }}
+        {% endif %}
+      </span>
+    </li>
+  {% endfor %}
+</ul>

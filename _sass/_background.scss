@@ -1,0 +1,256 @@
+/*****************************
+ * Home page "Research Experience" / "Education" sections
+ *****************************/
+
+.background {
+  margin-bottom: 1rem;
+
+  .background-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+
+    & + .background-entry {
+      border-top: 1px solid var(--global-divider-color);
+    }
+  }
+
+  // Fixed box so every logo occupies the same footprint; `contain` keeps
+  // wordmarks and square seals at a comparable visual weight.
+  .background-logo {
+    flex: 0 0 7rem;
+    min-height: 5.5rem;
+    display: flex;
+    align-items: flex-start; // top line of all three columns starts together
+    justify-content: center;
+    padding-right: 0.75rem;
+
+    img {
+      max-width: 100%;
+      max-height: 4.5rem;
+      object-fit: contain;
+    }
+  }
+
+  .background-meta {
+    flex: 0 0 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 1rem;
+  }
+
+  .background-year {
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 400; // same weight as the publication author line
+    white-space: nowrap;
+  }
+
+  .background-location {
+    color: var(--global-text-color);
+    font-size: 0.9rem;
+    white-space: nowrap;
+
+    i {
+      color: var(--global-text-color);
+    }
+  }
+
+  .background-body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .background-title {
+    margin-bottom: 0.15rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .background-institution {
+    font-size: 1rem;
+
+    i {
+      color: var(--global-theme-color);
+      font-size: 0.95rem;
+      margin-right: 0.2rem;
+    }
+  }
+
+  .background-institution-meta {
+    color: var(--global-text-color);
+    font-size: 1rem;
+    white-space: nowrap;
+
+    i {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .background-department {
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  // No bullet markers: the description reads as a plain line under the
+  // institution, like the publication `.periodical` line.
+  .background-description {
+    margin: 0.35rem 0 0 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 1rem;
+
+    li {
+      margin-bottom: 0.1rem;
+    }
+
+  }
+
+  // Same visual weight as the partner row: a line of text with its logo below.
+  // Same type treatment as the "In collaboration with" label below it.
+  .background-note {
+    margin-top: 0.5rem;
+  }
+
+  .background-note-text,
+  .background-partners-label {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  // The logo stands in for the name, so it sits inline with the sentence.
+  .background-note-logo {
+    display: inline-block;
+    margin-left: 0.3rem;
+
+    img {
+      max-height: 1.75rem;
+      max-width: 9rem;
+      object-fit: contain;
+      vertical-align: middle;
+    }
+  }
+
+  .background-partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  .background-partners-label {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .background-partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 1rem;
+
+    img {
+      max-height: 1.75rem;
+      max-width: 9rem;
+      object-fit: contain;
+      vertical-align: middle;
+    }
+  }
+}
+
+// Flat year + text lists (awards, professional service). The year column lines
+// up with the year column of the timeline entries above.
+.background-list {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  list-style: none;
+
+  .background-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0.3rem 0;
+
+    & + .background-list-item {
+      border-top: 1px solid var(--global-divider-color);
+    }
+  }
+
+  .background-list-year {
+    flex: 0 0 12rem;
+    padding-right: 1rem;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .background-list-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 1rem;
+  }
+
+  .background-list-label {
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 576px) {
+  .background-list .background-list-item {
+    flex-direction: column;
+
+    .background-list-year {
+      flex: 0 0 auto;
+      padding-right: 0;
+    }
+  }
+}
+
+// Most of these logos are dark artwork on transparency, so they need a light
+// tile to stay readable when the site is in dark mode.
+html[data-theme="dark"] .background {
+  .background-logo img,
+  .background-note-logo img,
+  .background-partners-logos img {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 576px) {
+  .background {
+    .background-entry {
+      flex-wrap: wrap;
+    }
+
+    .background-logo {
+      flex: 0 0 5.5rem;
+      height: 3.75rem;
+
+      img {
+        max-height: 3.4rem;
+      }
+    }
+
+    .background-meta {
+      flex: 1 1 auto;
+      flex-direction: row;
+      align-items: baseline;
+      gap: 0.5rem;
+      padding-right: 0;
+    }
+
+    .background-body {
+      flex: 1 1 100%;
+      margin-top: 0.3rem;
+    }
+  }
+}

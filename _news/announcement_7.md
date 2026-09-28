@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [Oak Ridge National Lab (ORNL)](https://www.ornl.gov/) as a Research Intern 👩🏻‍💻, contribute to the [DOE Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission).
+Joined [Oak Ridge National Lab (ORNL)](https://www.ornl.gov/) as a Research Scientist Intern 👩🏻‍💻, contribute to the [DOE Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission).
