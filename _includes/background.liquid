@@ -8,7 +8,9 @@
           <img
             src="{{ logo_path }}"
             alt="{{ logo_alt }}"
-            {% if entry.logo_height or entry.logo_offset %}style="{% if entry.logo_height %}max-height: {{ entry.logo_height }};{% endif %}{% if entry.logo_offset %}margin-top: {{ entry.logo_offset }};{% endif %}"{% endif %}
+            {% if entry.logo_height or entry.logo_offset %}
+              style="{% if entry.logo_height %}max-height: {{ entry.logo_height }};{% endif %}{% if entry.logo_offset %}margin-top: {{ entry.logo_offset }};{% endif %}"
+            {% endif %}
             loading="lazy"
           />
         {% endif %}
