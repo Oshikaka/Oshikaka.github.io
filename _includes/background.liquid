@@ -12,7 +12,7 @@
               style="{% if entry.logo_height %}max-height: {{ entry.logo_height }};{% endif %}{% if entry.logo_offset %}margin-top: {{ entry.logo_offset }};{% endif %}"
             {% endif %}
             loading="lazy"
-          />
+          >
         {% endif %}
       </div>
       <div class="background-meta">
@@ -74,10 +74,10 @@
                 <span class="background-note-logo">
                   {% if note.logo_url %}
                     <a href="{{ note.logo_url }}" title="{{ note.logo_alt }}">
-                      <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" loading="lazy" />
+                      <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" loading="lazy">
                     </a>
                   {% else %}
-                    <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" title="{{ note.logo_alt }}" loading="lazy" />
+                    <img src="{{ note_logo_path }}" alt="{{ note.logo_alt }}" title="{{ note.logo_alt }}" loading="lazy">
                   {% endif %}
                 </span>
               {% endif %}
@@ -97,10 +97,10 @@
                 {% endif %}
                 {% if partner.url %}
                   <a href="{{ partner.url }}" title="{{ partner.name }}">
-                    <img src="{{ partner_path }}" alt="{{ partner.name }}" {{ partner_style }} loading="lazy" />
+                    <img src="{{ partner_path }}" alt="{{ partner.name }}" {{ partner_style }} loading="lazy">
                   </a>
                 {% else %}
-                  <img src="{{ partner_path }}" alt="{{ partner.name }}" title="{{ partner.name }}" {{ partner_style }} loading="lazy" />
+                  <img src="{{ partner_path }}" alt="{{ partner.name }}" title="{{ partner.name }}" {{ partner_style }} loading="lazy">
                 {% endif %}
               {% endfor %}
             </span>
